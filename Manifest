@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="Snowman2409"
+
+                fetch="https://github.com/Snowman2409" />
+
+        <remote name="stormbreaker" 
+
+                fetch="https://github.com/stormbreaker-project" />        
+
+<!-- device trees -->
+
+<project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Snowman2409" revision="twelve" clone-depth="1" />
+        <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Snowman2409" revision="twelve" clone-depth="1" />
+
+
+<!-- kernel -->
+
+        
+
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Snowman2409" revision="twelve" clone-depth="1" />
+
+
+</manifest>
+        
+
+      
