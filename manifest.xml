@@ -21,7 +21,7 @@
         
         <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Snowman2409" revision="qti-oldcam-eas" clone-depth="1" />
 
-<! device settings >
+ <!-- device settings -->
 
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LOS" revision="lineage-19.0" />
 
