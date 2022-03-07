@@ -2,8 +2,6 @@
 
 <manifest>
 
-<remote  name="LOS"
-           fetch="https://github.com/LineageOS" />
 
 <remote name="Snowman2409"
 
@@ -23,10 +21,6 @@
 
         
         <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Snowman2409" revision="qti-oldcam-eas" clone-depth="1" />
-
- <!-- device settings -->
-
- <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LOS" revision="lineage-19.0" />
 
 
 
