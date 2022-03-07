@@ -2,6 +2,9 @@
 
 <manifest>
 
+<remote  name="LOS"
+           fetch="https://github.com/LineageOS" />
+
 <remote name="Snowman2409"
 
                 fetch="https://github.com/Snowman2409" />
