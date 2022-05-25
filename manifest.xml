@@ -25,7 +25,7 @@
   
   <remove-project name="LineageOS/android_hardware_qcom_display" />
 
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.1-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="twelve-caf-msm8998" remote="superior" />
 
 <!-- kernel -->
 
