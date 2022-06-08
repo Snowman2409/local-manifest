@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+       <remote name="abaken"
+               fetch="https://gitlab.com/Project-Awaken" />
        <remote name="Snowman2409"
                fetch="https://github.com/Snowman2409" />
        <remote name="xenxynon" 
@@ -16,7 +17,13 @@
        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Snowman2409" revision="qti-oldcam-eas" clone-depth="1" />
 
        <!-- replacements -->
-       <remove-project name="android_hardware_qcom_display" /> />
+       <remove-project name="android_bionic" />
+       <project path="bionic" name="android_bionic" remote="xenxynon" revision="twelve" />
+       <remove-project name="android_vendor_gapps" />
+       <project path="vendor/gms" name="android_vendor_gms" remote="abaken" revision="12.1" />
+
+
+       <remove-project name="android_hardware_qcom_display" />
        <remove-project name="android_hardware_qcom_media" />
        <remove-project name="android_hardware_qcom_audio" />
        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-msm8998" />
