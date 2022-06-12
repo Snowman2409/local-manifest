@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-       <remote name="abaken"
+       <remote name="awaken"
                fetch="https://gitlab.com/Project-Awaken" />
        <remote name="Snowman2409"
                fetch="https://github.com/Snowman2409" />
@@ -18,7 +18,7 @@
 
        <!-- replacements -->
        <remove-project name="android_vendor_gapps" />
-       <project path="vendor/gms" name="android_vendor_gms" remote="abaken" revision="12.1" />
+       <project path="vendor/gms" name="android_vendor_gms" remote="awaken" revision="12.1" />
 
 
        <remove-project name="android_hardware_qcom_display" />
