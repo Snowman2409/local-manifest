@@ -17,9 +17,7 @@
        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Snowman2409" revision="qti-oldcam-eas" clone-depth="1" />
 
        <!-- replacements -->
-       <remove-project name="android_vendor_gapps" />
-       <project path="vendor/gms" name="android_vendor_gms" remote="awaken" revision="12.1" />
-
+       
        <remove-project name="android_vendor_superior" />
        <remove-project name="android_hardware_qcom_display" />
        <remove-project name="android_hardware_qcom_media" />
